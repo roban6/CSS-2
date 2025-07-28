@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fef8f3;
+      color: #333;
+    }
+
+    header {
+      background-color: #af6c0e;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .hero {
+      background-color: #bab2a3;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+
+    .cafe-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .cafe-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    .cafe-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .cafe-card h3 {
+      margin: 1rem;
+      color: #160d0c;
+    }
+
+    .cafe-card p {
+      margin: 0 1rem 1rem;
+      color: #555;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #3f2a0d;
+      color: white;
+    }
